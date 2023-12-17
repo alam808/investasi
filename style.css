@@ -20,10 +20,18 @@ article {
     margin-bottom: 20px;
     width: 100%;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 img {
 max-width: 100%; /* Menyesuaikan lebar maksimum dengan lebar container */
     height: auto;    /* Menjaga proporsi asli gambar */
+}
+@media screen and (max-width: 600px) {
+    article {
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size:20px;
+}
 }
