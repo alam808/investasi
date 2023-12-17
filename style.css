@@ -7,6 +7,7 @@ body {
     height: 100vh;
     background: #01233B;
     color:white;
+    font-size: 100px;
 }
 
 .container {
@@ -20,13 +21,41 @@ article {
     margin-bottom: 20px;
     width: 100%;
     box-sizing: border-box;
-    font-size: 40px;
+    font-size: 50px;
 }
+
+.emas {
+  color: yellow; 
+  font-weight: bold; 
+  font-size: 60px;
+}
+.obligasi {
+  color: #00D394; 
+  font-weight: 
+  bold; font-size: 60px
+}
+.saham {
+  color: #00D394; 
+  font-weight: 
+  bold;font-size: 60px
+}
+.bitcoin {
+  color: yellow; 
+  font-weight: 
+  bold;font-size: 60px
+}
+.ref {
+  color: yellow; 
+  font-weight:bold;
+  font-size: 40px
+}
+
 
 img {
 max-width: 100%; /* Menyesuaikan lebar maksimum dengan lebar container */
     height: auto;    /* Menjaga proporsi asli gambar */
 }
+
 @media screen and (max-width: 600px) {
     article {
     margin-bottom: 20px;
@@ -34,4 +63,36 @@ max-width: 100%; /* Menyesuaikan lebar maksimum dengan lebar container */
     box-sizing: border-box;
     font-size:20px;
 }
+
+.emas {
+  color: yellow;
+  font-weight: bold;
+  font-size: 25px;
+}
+.obligasi {
+  color: #00D394; 
+  font-weight: 
+  bold; font-size: 25px
+}
+
+.saham  {
+  color: #00D394; 
+  font-weight: bold;
+  font-size: 25px
+}
+
+.bitcoin {
+  color: yellow; 
+  font-weight: 
+  bold;font-size: 25px
+}
+
+.ref {
+  color: yellow; 
+  font-weight:bold;
+  font-size: 20px;
+}
+
+
+
 }
